@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Bliss</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Organic Bliss</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to Organic Bliss</h2>
+        <a href="#products" class="cta-button">Explore Our Products</a>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Organic Bliss, where we are dedicated to bringing you the finest organic products that are kind to both your health and the environment. Our mission is to provide high-quality, sustainable products that you can trust and feel good about using.</p>
+            
+            <h3>Our Story</h3>
+            <p>Founded in 2020, Organic Bliss started as a small family business with a vision to make organic living accessible to everyone. Over the years, we have grown into a trusted name in the organic industry, offering a wide range of products that cater to diverse needs. Our journey has been driven by a passion for health and sustainability, and we are committed to continuing this legacy.</p>
+            
+            <h3>Our Mission</h3>
+            <p>At Organic Bliss, our mission is simple: to promote a healthier lifestyle through organic products. We believe in the power of nature and strive to ensure that all our products are sourced ethically and sustainably. Our goal is to make organic choices easier and more enjoyable for our customers.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src=organic-fruits.jpg>
+                <h3>Organic Fruits</h3>
+                <p>Fresh and juicy fruits grown organically without synthetic pesticides or fertilizers.</p>
+            </div>
+            <div class="product">
+                <img src=organic-vegetables.jpg>
+                <h3>Organic Vegetables</h3>
+                <p>Vibrant and nutritious vegetables cultivated organically to ensure the best quality.</p>
+            </div>
+            <div class="product">
+                <img src=organic-skincare.jpg>
+                <h3>Organic Skincare</h3>
+                <p>Gentle and natural skincare products made from organic ingredients to nourish your skin.</p>
+            </div>
+            <div class="product">
+                <img src=organic-dairy.jpg>
+                <h3>Organic Dairy Products</h3>
+                <p>High-quality dairy products from organically raised animals, ensuring freshness and purity.</p>
+            </div>
+            <div class="product">
+                <img src=organic-fertilizer.jpg>
+                <h3>Organic Fertilizers</h3>
+                <p>Eco-friendly fertilizers to promote healthy plant growth while respecting the environment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Organic Bliss. All rights reserved.</p>
+    </footer>
+</body>
+</html>

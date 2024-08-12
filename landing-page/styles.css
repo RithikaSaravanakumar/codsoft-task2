@@ -1,0 +1,196 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('12.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the entire background */
+    color: #fff; /* Default text color to white for contrast */
+}
+
+header {
+    background-color: rgba(46, 139, 87, 0.8); /* Semi-transparent green for header */
+    color: #fff;
+    padding: 2rem 0; /* Increased padding for a larger header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    text-align: center; /* Center text in header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Increased font size for the header */
+    font-family: 'Pacifico', cursive; /* Change font to Pacifico */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4e157; /* Light green highlight on hover */
+}
+
+#hero {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay for better text readability */
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+    position: relative;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background-color: #4caf50; /* Vibrant green */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Button shadow */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+#about {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ddd; /* Light text color for contrast */
+}
+
+#about h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #198b49; /* Revert to previous color */
+}
+
+#about h3 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #198b49; /* Revert to previous color */
+}
+
+#about p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+#products {
+    padding: 4rem 2rem;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+}
+
+.product {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.product img {
+    width: 100%; /* Full width of the product container */
+    max-width: 350px; /* Maximum width for the images */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure images cover the specified dimensions */
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.product h3 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #2e8b57; /* Revert to previous color */
+}
+
+.product p {
+    font-size: 1rem;
+    color: #eee; /* Light text color for better contrast */
+}
+
+#contact {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: 500;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4caf50; /* Highlight border on focus */
+}
+
+form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4caf50; /* Vibrant green */
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+footer {
+    background: rgba(46, 139, 87, 0.8); /* Semi-transparent green for footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
